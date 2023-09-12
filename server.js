@@ -26,7 +26,7 @@ app.use("/api/v1/posts", require("./routes/postRoutes"));
 app.get('/',(req,res)=>{
   res.status(200).send({
     success:true,
-    message:"node server running"
+    message:"Node Server Running"
   })
 })
 
